@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; connect-src 'self' http://189.16.45.2; img-src *">-->
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>AjudaBR</title>
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">
+                    <!--<img id="divLogo" src="img/logo_top.png" />-->
+                </a>
+                <div id="barraVertical" hidden>
+                    <!-- Menu lateral telas pequenas -->
+                    <ul id="slide-out" class="side-nav">
+                        <li><a data-controller="home" href="#!">Tela Home</a></li>
+                        <li><a data-controller="listaInstituicoes" href="#!">Instituicoes</a></li>
+                        <li><a data-controller="minhasDoacoes" href="#!">Minhas Doacoes</a></li>
+
+
+                        <!--<li><a data-controller="listaAnuncios" href="#!">Anuncios</a></li>
+                        <li><a data-controller="listaAnunciosAdquiridos" href="#!">Anuncios Adquiridos</a></li>-->
+                        <!--<li><a data-controller="testeMD5" href="#!">Teste MD5</a></li>
+                        <li><a data-controller="geradorQr" href="#!">Teste qrCode</a></li>
+                        <li><a data-controller="testeConexao" href="#!">Teste de conexão</a></li>-->
+                    </ul>
+                    <!-- Barra para celulares no modo horizontal, tablets e computadores -->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a data-controller="home" href="#!">Tela Home</a></li>
+                        <li><a data-controller="listaInstituicoes" href="#!" >Tela Instituicoes (principal)</a></li>
+                        <li><a data-controller="minhasDoacoes" href="#!">Minhas Doacoes</a></li>
+
+
+
+
+                        <!--<li><a data-controller="listaAnuncios" href="#!">Anuncios</a></li>
+                        <li><a data-controller="listaAnunciosAdquiridos" href="#!">Anuncios Adquiridos</a></li>-->
+                        <!--<li><a data-controller="testeMD5" href="#!">Teste MD5</a></li>
+                        <li><a data-controller="geradorQr" href="#!">Teste qrCode</a></li>
+                        <li><a data-controller="testeConexao" href="#!">Teste de conexão</a></li>-->
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="main-loading" class="progress" style="display: none;">
+        <div class="indeterminate"></div>
+    </div>
+
+    <div id="content" class="container">
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <!-- bibliotecas -->
+    <script type="text/javascript" src="js/lib/jquery.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.ui.touch-punch.js"></script>
+    <script type="text/javascript" src="js/lib/materialize.js"></script>
+    <script type="text/javascript" src="js/lib/qrcode.js"></script>
+    <script type="text/javascript" src="js/lib/md5.js"></script>
+        
+    <!-- código núcleo -->
+    <script type="text/javascript" src="js/base/base.js"></script>
+    <script type="text/javascript" src="js/base/app.js"></script>
+    <script type="text/javascript" src="js/base/util.js"></script>
+
+    <!-- controllers -->
+    <script type="text/javascript" src="js/controllers/home.js"></script>
+    <script type="text/javascript" src="js/controllers/listaAnuncios.js"></script>
+    <script type="text/javascript" src="js/controllers/testeMD5.js"></script>
+    <script type="text/javascript" src="js/controllers/geradorQr.js"></script>
+    <script type="text/javascript" src="js/controllers/listaAnunciosAdquiridos.js"></script>
+    <script type="text/javascript" src="js/controllers/descricaoAnuncio.js"></script>
+    <script type="text/javascript" src="js/controllers/testeConexao.js"></script>
+    <script type="text/javascript" src="js/controllers/qrCodeAnuncio.js"></script>
+    <script type="text/javascript" src="js/controllers/descricaoAnuncioAdquirido.js"></script>
+    <script type="text/javascript" src="js/controllers/login.js"></script>
+    <script type="text/javascript" src="js/controllers/listaInstituicoes.js"></script>
+    <script type="text/javascript" src="js/controllers/descricaoInstituicao.js"></script>
+    <script type="text/javascript" src="js/controllers/doacao.js"></script>
+    <script type="text/javascript" src="js/controllers/minhasDoacoes.js"></script>
+</body>
+
+</html>

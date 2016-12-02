@@ -1,0 +1,19 @@
+#content {
+    margin-top: 10px;
+}
+
+#main-loading {
+    margin-top: 0;
+}
+
+/**Div que comporta o logo na navbar**/
+#divLogo {
+  width: 60%;
+  padding-top: 10px;
+}
+
+#formLog
+{
+    margin-top: 30%;
+    margin-bottom: 30%;
+}

@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FlashBuyMobile", "http://localhost:49504", "{26D4C74D-78A8-45FB-80B9-37F8A7E10D26}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49504"
+		Debug.AspNetCompiler.PhysicalPath = "www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49504\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49504"
+		Release.AspNetCompiler.PhysicalPath = "www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49504\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "www\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1A7685E6-7835-40E5-AB2E-042ABD24FD6B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		config.xml = config.xml
+		LICENSE = LICENSE
+		package.json = package.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apoio", "apoio", "{D78FEC29-92F9-4069-84FA-C8B471316734}"
+	ProjectSection(SolutionItems) = preProject
+		apoio\JavaScript Documento de Apoio PI.md = apoio\JavaScript Documento de Apoio PI.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tasks", "tasks", "{BB902C57-BD82-4C6C-9901-64B0924DEA97}"
+	ProjectSection(SolutionItems) = preProject
+		tasks\platforms.js = tasks\platforms.js
+		tasks\plugins.js = tasks\plugins.js
+		tasks\serve.js = tasks\serve.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hooks", "hooks", "{6BF72617-1029-4725-8EE0-6C84DE5734F7}"
+	ProjectSection(SolutionItems) = preProject
+		hooks\after_device.js = hooks\after_device.js
+		hooks\before_device.js = hooks\before_device.js
+		hooks\indexProperties.js = hooks\indexProperties.js
+		hooks\README.md = hooks\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26D4C74D-78A8-45FB-80B9-37F8A7E10D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D4C74D-78A8-45FB-80B9-37F8A7E10D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D78FEC29-92F9-4069-84FA-C8B471316734} = {1A7685E6-7835-40E5-AB2E-042ABD24FD6B}
+		{BB902C57-BD82-4C6C-9901-64B0924DEA97} = {1A7685E6-7835-40E5-AB2E-042ABD24FD6B}
+		{6BF72617-1029-4725-8EE0-6C84DE5734F7} = {1A7685E6-7835-40E5-AB2E-042ABD24FD6B}
+	EndGlobalSection
+EndGlobal

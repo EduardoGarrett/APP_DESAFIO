@@ -1,0 +1,37 @@
+﻿
+<div class="row" align="center">
+    <div class="input-field col s12">
+        <div id="card-image">
+            <img class="responsive-img" width="300" src="img/semImagem.png" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s12">
+        <div id="descricaoOferta">
+            <div class="row">
+                <div class="col s12 m7">
+                    <blockquote> Nome: {{nome}}</blockquote>
+                    <blockquote> Descricao: {{descricao}}</blockquote>
+                </div>
+            </div>
+            <div class="row">
+                <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                    <button data-controller="doacao" data-instituicao="{{modelo}}" class="btn-floating btn-large red">
+                        <i class="material-icons">add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Caso decidirmos usar o qrCode nessa tela, podemos usar ele nessa div aqui-->
+<!--<div class="row" align="center">
+    <div class="input-field col s12">
+        <div id="qrcode">
+            qrCode aqui
+        </div>
+    </div>
+</div>-->
